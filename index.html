@@ -8,49 +8,90 @@
   
   <title>Frontend Mentor | News homepage</title>
 
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
   <div class="body-wrapper">
-    
+    <div class="nav">
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="">
+      </div>
+      <ul class="nav-links">
+          <li class="close"><img src="./assets/images/icon-menu-close.svg" alt=""></li>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+      </ul>
+      <div class="hamburger">
+        <img src="./assets/images/icon-menu.svg" alt="">
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="hero">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+        <img class="hero-img-desktop" src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <div class="title">The Bright Future of Web 3.0?</div>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <button>Read More</button>
+      </div>
+
+      <div class="new">
+        <div class="title">New</div>
+        <div class="new-article">
+          <div class="sub-title">Hydrogen VS Electric Cars</div>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-article">
+          <div class="sub-title">The Downsides of AI Artistry</div>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new-article">
+          <div class="sub-title">Is VC Funding Drying Up?</div>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+
+      <div class="stories">
+        <div class="story">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="">
+          <div class="story-content">
+            <div class="title">01</div>
+            <div class="sub-title">Reviving Retro PCs</div>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="story">
+          <img src="./assets/images/image-top-laptops.jpg" alt="">
+          <div class="story-content">
+            <div class="title">02</div>
+            <div class="sub-title">Top 10 Laptops of 2022</div>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="story">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="">
+          <div class="story-content">
+            <div class="title">03</div>
+            <div class="sub-title">The Growth of Gaming</div>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
-  
-  <!-- Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities. -->
-
+  <script src="./app.js"></script>
 </body>
 </html>

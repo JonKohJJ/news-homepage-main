@@ -57,6 +57,10 @@ img{
     :root{
         --fs-paragraph: 1.2rem;
     }
+    .sub-title{
+        line-height: 1.4;
+    }
+
     .nav{
         margin: 70px 0 40px 0;
     }
@@ -92,8 +96,13 @@ img{
     .div-flex{
         display: flex;
     }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .hero img{
-        margin-bottom: 50px !important;
+        margin-bottom: 0px !important;
     }
     .hero-img-desktop{
         display: block !important;
@@ -106,19 +115,30 @@ img{
     }
     .div-flex:last-of-type div:first-of-type{
         margin-bottom: 0;
+        padding-right: 45px;
     }
     .div-flex:last-of-type div:last-of-type{
-        width: 90%;
+        width: 125%;
     }
 
     .new{
         margin: 0 0 0 20px!important;
+        width: 80%;
     }
     .stories{
         margin-top: 70px;
         display: flex;
     }
-
+    .story{
+        align-self: unset !important;
+        margin-bottom: 0 !important;
+    }
+    .story img{
+        object-fit: cover;
+    }
+    .story-content{
+        margin-right: 20px;
+    }
 }
 
 
